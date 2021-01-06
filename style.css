@@ -137,17 +137,20 @@ section{
     background-position: center;
     padding: 50px;
 }
-.inquiry-box h2{
+.inquiry-box ul li{
+    display: inline-block;
+}
+.inquiry-box ul li h2{
     margin-left: 150px;
-    color: white;
+    color:white;
 }
-.inquiry-box a{
+.inquiry-box ul li a{
     float: right;
-    margin-right: 150px;
-    margin-bottom: 200px;
-    
+    margin-left: 400px;
 }
-
+.text-content{
+    display: inline;
+}
 .social-links{
     text-align: center;
 }
