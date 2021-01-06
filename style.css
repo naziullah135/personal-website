@@ -1,6 +1,12 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+body h1{
+    font-size: 60px;
+}
+body h2{
+    font-size: 40px;
+}
 .navbar ul{
     float: right;
     margin-right: 100px;
@@ -46,6 +52,7 @@ section{
     font-size: 15px;
     font-weight: 400;
 }
+/*---show some project---*/
 .one-third-width{
     width: 25%;
     background: white;
@@ -65,4 +72,101 @@ section{
 .project-area{
     height: 700px;
     background:#efefef; 
+}
+
+/*---testimonial---*/
+
+.testimonial{
+    width:100%;
+    padding: 70px 0;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial-row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.testimonial-col p{
+    font-size: 14px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+.user-info small{
+    color: #009688;
+}
+.testimonial-col:hover{
+    transform: translateY(-7px);
+}
+/*--footer--*/
+.footer{
+    height: 500px;
+    width: 100%;
+    background: #efefef;
+}
+.inquiry-box{
+    background-image: url("images/work-box.png");
+    background-size: 900px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+.inquiry-box h2{
+    margin-left: 150px;
+    color: white;
+}
+.inquiry-box a{
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    
+}
+
+.social-links{
+    text-align: center;
+}
+.mail-id p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.mail-id h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+.icon-images{
+    text-align: center;
+    margin-top: 0px;
+}
+.icon-images .fa{
+    width:35px;
+    padding:10px;
+    justify-content: space-between;
 }
