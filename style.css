@@ -47,7 +47,8 @@ section{
     text-decoration: none;
     background-image: linear-gradient(180deg,#227093,#2c2c54);
     color:white;
-    padding: 10px 50px;
+    margin-top: 10px;
+    padding: 12px 50px;
     border-radius: 10px;
     font-size: 15px;
     font-weight: 400;
@@ -132,7 +133,7 @@ section{
 }
 .inquiry-box{
     background-image: url("images/work-box.png");
-    background-size: 900px 180px;
+    background-size: 800px 180px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px;
@@ -141,12 +142,12 @@ section{
     display: inline-block;
 }
 .inquiry-box ul li h2{
-    margin-left: 150px;
+    margin-left: 200px;
     color:white;
 }
 .inquiry-box ul li a{
     float: right;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 .text-content{
     display: inline;
