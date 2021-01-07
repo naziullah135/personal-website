@@ -7,6 +7,11 @@ body h1{
 body h2{
     font-size: 40px;
 }
+body p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color:dimgray;
+}
 .navbar ul{
     float: right;
     margin-right: 100px;
@@ -127,22 +132,22 @@ section{
 }
 /*--footer--*/
 .footer{
-    height: 500px;
+    height: 550px;
     width: 100%;
     background: #efefef;
 }
 .inquiry-box{
-    background-image: url("images/work-box.png");
+    background-image: url("images/inquiry-bg.png");
     background-size: 800px 180px;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px;
+    padding: 100px;
 }
 .inquiry-box ul li{
     display: inline-block;
 }
 .inquiry-box ul li h2{
-    margin-left: 200px;
+    margin-left: 150px;
     color:white;
 }
 .inquiry-box ul li a{
